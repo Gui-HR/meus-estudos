@@ -13,6 +13,7 @@ var user = {
 console.log(Object.values(user));
 */
 
+/* Desestruturação 
 var user = {
     name: 'Guilherme',
     idade: 19,
@@ -23,6 +24,41 @@ var { cidade: city } = user
 
 console.log(city);
 console.log(user);
+*/
+
+/* Rest Operator 
+var user = {
+    name: 'Guilherme',
+    idade: 19,
+    cidade: 'Cambui-MG'
+}
+
+var { cidade, ...user } = user
+
+console.log(cidade);
+console.log(user);
+*/
+
+/* Short Syntax 
+var name = 'Guilherme'
+var age = 19
+ var user = {name, age}
+
+ console.log(user);
+*/
+
+/* Optional Chaining
+var user = {
+    name: 'Guilherme',
+    idade: 19,
+    endereço: {
+        cidade: 'Cambui-MG',
+        rua: 'itaim'
+    }
+}
+
+console.log(user.endereço?.rua ?? 'Não foi');
+*/
 
 /* map()
 var array = [1, 2, 3, 4, 5, 6, 7]
