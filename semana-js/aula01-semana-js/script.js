@@ -13,7 +13,7 @@ const phaseScores = [
 
   const rogerScore =  phaseScores.reduce((acc, phaseScores) => {
     if (phaseScores.name === 'Roger Melo') {
-        return acc = phaseScores.score
+        return acc += phaseScores.score
     }
 
     return acc
