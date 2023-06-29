@@ -10,5 +10,3 @@
 const randomNumbers = [10, 30, 15, 25, 50, 40, 5]
 
 const oddNumbers = randomNumbers.filter(number => number % 2 == 1)
-
-console.log(oddNumbers);

@@ -10,5 +10,3 @@
 const numbers = [5, 7, 3]
 
 const squareNumbers = numbers.map(number => number ** 2)
-
-console.log(squareNumbers);
